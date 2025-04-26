@@ -1,0 +1,35 @@
+.tabs-container {
+    margin-top: 2rem;
+  }
+  
+  .tabs-header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tab-button {
+    padding: 0.5rem 1rem;
+    background: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .tab-button:hover {
+    background: #ddd;
+  }
+  
+  .tab-button.active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .tabs-content {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
